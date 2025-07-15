@@ -1,0 +1,20 @@
+{
+  "name": "accounting",
+  "version": "1.0.0",
+  "description": "Node.js Account Management System - Converted from COBOL legacy application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node validate.js",
+    "validate": "node validate.js"
+  },
+  "keywords": ["accounting", "legacy-modernization", "cobol-conversion", "nodejs"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

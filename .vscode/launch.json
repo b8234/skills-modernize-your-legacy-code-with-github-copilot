@@ -1,0 +1,37 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run Node.js Accounting App",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/accounting/index.js",
+            "cwd": "${workspaceFolder}/src/accounting",
+            "console": "integratedTerminal",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "env": {
+                "NODE_ENV": "development"
+            },
+            "args": []
+        },
+        {
+            "name": "Debug Node.js Accounting App",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/accounting/index.js",
+            "cwd": "${workspaceFolder}/src/accounting",
+            "console": "integratedTerminal",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "stopOnEntry": false,
+            "env": {
+                "NODE_ENV": "development"
+            },
+            "args": [],
+            "sourceMaps": false
+        }
+    ]
+}
